@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <Button
+        android:id="@+id/btn_favourite"
+        style="@style/drawerMenuButton"
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:drawableLeft="@drawable/ic_menu_fav"
+        android:text="@string/favourite" />
+
+    <Button
+        android:id="@+id/btn_about"
+        style="@style/drawerMenuButton"
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:drawableLeft="@drawable/ic_menu_about"
+        android:text="@string/about"
+       />
+
+    <Button
+        android:id="@+id/btn_profile"
+        style="@style/drawerMenuButton"
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:drawableLeft="@drawable/ic_menu_profile"
+        android:text="@string/profile" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        style="@style/drawerMenuButton"
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:drawableLeft="@drawable/ic_menu_logout"
+        android:text="@string/logout"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_setting"
+        style="@style/drawerMenuButton"
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:drawableLeft="@drawable/ic_menu_settings"
+        android:text="@string/setting" />
+     <Button
+        android:id="@+id/btn_feedback"
+        style="@style/drawerMenuButton"
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:drawableLeft="@drawable/ic_memu_fb"
+        android:text="@string/feedback" />
+
+</merge>

@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">顶顶</string>
+
+    <!-- system -->
+
+    <string name="unknown_error_error_code">未知错误，错误代码</string>
+    <!-- drawer menu -->
+    <string name="profile">个人资料</string>
+    <string name="logout">注销</string>
+    <string name="about">关于我们</string>
+    <string name="feedback">反馈</string>
+    <string name="favourite">收藏</string>
+    <string name="setting">设置</string>
+    
+    <!--setting  -->
+    <string name="pref_normal_title">常规</string>
+    <string name="pref_appearance_title">显示</string>
+    <string name="pref_read_title">阅读</string>
+    <string name="pref_theme_title">主题</string>
+
+</resources>
