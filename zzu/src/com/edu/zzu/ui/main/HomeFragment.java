@@ -72,6 +72,6 @@ public class HomeFragment extends AbstractAppFragment
 
     public void onPause() {
 	super.onPause();
-	MobclickAgent.onPageEnd("MainScreen");
+	MobclickAgent.onPageEnd("MainScreen");//umeng
     }
 }
